@@ -1,0 +1,11 @@
+.musicItem{
+    width: 100%;
+    height: .8rem;
+    background: #f2f2f2;
+    line-height: .8rem;
+    text-indent: .1rem;
+    margin-top: 5px;
+    &.active{
+        border: 1px solid red;
+    }
+}

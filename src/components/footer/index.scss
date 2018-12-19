@@ -1,0 +1,24 @@
+.recordPage{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(61, 60, 60, 0.4);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    a{
+        text-decoration: none;
+        color: #ffffff;
+        img{
+            vertical-align: middle;
+        }
+        span{
+            height: 20px;
+            line-height: 20px;
+            margin-left: 8px;
+        }
+    }
+}

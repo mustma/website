@@ -1,0 +1,22 @@
+@import '../../mixin/function';
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    &.index{
+        @extend %bg;
+        background-color: #ffffff;
+        font-size: .3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .mr20{margin-right: .2rem;}
+    .mr30{margin-right: .3rem;}
+    .mr40{margin-right: .4rem;}
+}

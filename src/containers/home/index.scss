@@ -1,0 +1,13 @@
+@import '../../mixin/function';
+
+.homePage{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .banner{
+        height: 400px;
+        img{
+            height: 100%;
+        }
+    }
+}
